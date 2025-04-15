@@ -2,13 +2,13 @@ public class hewan{
     String id;
     String nama;
     String jenis;
-    String umur;
+    int umur;
 
     public hewan(){
 
     }
 
-    public hewan(String id, String nama, String jenis, String umur){
+    public hewan(String id, String nama, String jenis, int umur){
         this.id = id;
         this.nama = nama;
         this.jenis = jenis;
