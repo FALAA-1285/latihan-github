@@ -25,7 +25,7 @@ public class dataHewan {
             int maxIdx = i;
             for (int j = i + 1; j < idx; j++) {
                 if (dataHewan[j].umur > dataHewan[maxIdx].umur) {
-                    maxIdx = j;
+                    maxIdx = j;;;
                 }
             }
             hewan temp = dataHewan[i];
