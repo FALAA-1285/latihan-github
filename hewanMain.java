@@ -5,6 +5,8 @@ public class hewanMain {
         Scanner sc = new Scanner(System.in);
         dataHewan list = new dataHewan();
 
+        System.out.println("aawokaowkoawkaokwoakwo");
+
         do {
             System.out.println("== Menu ==");
             System.out.println("1. Tambahkan Hewan");
