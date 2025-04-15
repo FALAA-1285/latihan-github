@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class hewanMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        hewan hewan = new hewan();
         dataHewan list = new dataHewan();
+
         do {
             System.out.println("== Menu ==");
             System.out.println("1. Tambahkan Hewan");
@@ -15,24 +15,26 @@ public class hewanMain {
             System.out.print("Masukkan Pilihan Menu: ");
             int pilihan = sc.nextInt();
             sc.nextLine();
+
             switch (pilihan) {
+                
                 case 1:
                     System.out.print("Masukkan id hewan: ");
                     String id = sc.nextLine();
-                    sc.nextLine();
                     System.out.print("Masukkan Nama Hewan: ");
-                    String nama = sc.next();
+                    String nama = sc.nextLine();
                     System.out.print("Masukkan Jenis Hewan: ");
-                    String jenis = sc.next();
+                    String jenis = sc.nextLine();
                     System.out.print("Masukkan Umur Hewan: ");
                     int umur = sc.nextInt();
+                    sc.nextLine();
                     list.tambah(new hewan(id, nama, jenis, umur));
                     break;
                 case 2:
                     list.tampil();
                     break;
                 case 3:
-                    list.sortingASC();
+                    list.sortingDSC();
                     break;
                 case 4:
                     System.out.print("Masukkan id yang dicari:");
