@@ -5,7 +5,7 @@ public class hewanMain {
         Scanner sc = new Scanner(System.in);
         dataHewan list = new dataHewan();
 
-        System.out.println("aawokaowkoawkaokwoakwo");
+        System.out.println("MUID ANJG");
 
         do {
             System.out.println("== Menu ==");
